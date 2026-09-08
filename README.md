@@ -98,6 +98,8 @@
 
 ## Websites
 
+- [Settled Estate](https://settledestate.com/webmcp/) - Public probate and estate-guidance search, dated comparisons of five reviewed will makers, and state executor-compensation calculators. Browser WebMCP tools update the same visible controls used manually, with source dates, price conditions and explicit unknowns. Financial inputs stay out of shared URLs.
+
 - [Archipelago](https://warrenperez.com/en/archipelago/) - Maps a Notion workspace as a nautical chart, entirely in the browser. Four WebMCP tools let an agent draw the chart from structured data, read it back, highlight a computed set of databases, and annotate islands - on the same map the human is watching.
 - [Scholar Sidekick](https://scholar-sidekick.com/integrations/webmcp) - Resolves scholarly identifiers (DOI, PMID, arXiv, ISBN…) and verifies citations, exposing seven WebMCP tools (`verifyCitation`, `auditBibliography`, `checkRetraction`, `checkOpenAccess`, `resolveIdentifier`, `formatCitation`, `exportCitation`) via `navigator.modelContext`, so in-browser agents can verify a citation or audit a whole bibliography, format citations, and check retraction and open-access status directly.
 - [agent-ready.dev](https://agent-ready.dev/) - Scores any website for AI-agent readability against the Vercel Agent Readability Spec, llms.txt, and agent-protocol manifests, and exposes WebMCP tools (`scan_site`, `get_scan`, `ask`) via `navigator.modelContext` so in-browser agents can run scans directly.
